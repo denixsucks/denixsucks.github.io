@@ -62,13 +62,13 @@ h1{
 }
 .box{
 	width: 900px;
-	background: rgba(0, 0, 0, 0.411);
+	background: rgba(0, 0, 0, 0.65);
 	padding: 20px;
 	text-align: center;
 	margin: auto;
 	margin-top: 2%;
 	color: #dad3db;
-	border-radius: 10%;
+	border-radius: 0.5%;
 }
 .box-img{
 	border-radius: 50%;
