@@ -36,7 +36,28 @@ body {
     width: 600px;
     background: rgba(0, 0, 0, 0.6);
     padding: 10px;
-    margin-top: 1%;
+    margin-top: 10px;
+    color: #dad3db;
+    border-radius: 15px;
+    display:flex;
+}
+
+.downloadcv {
+	border-radius:15px;
+	padding: 8px 1ch;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	display:block;
+	top: 8px;
+	right:8px; 
+	text-decoration: none;
+}
+
+.fitbox {
+    width: fit-content;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    margin-top: 10px;
     color: #dad3db;
     border-radius: 15px;
     display:flex;
@@ -60,6 +81,33 @@ body {
 }
 
 .box h1 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 900;
 }
+.box h2 {
+	font-size 18px;
+	font-weight: 700;
+}
+
+.fitbox article {
+  margin: 10px;
+}
+
+.fitbox h1, p {
+  text-align: center;
+  margin: auto;
+}
+
+br {
+	display: block;
+	margin: 5px 0;
+}
+
+ul {
+	padding-left: 10px;
+}
+
+.fitbox h1 {
+  font-size: 22px;
+}
+  font-weight: 900;
